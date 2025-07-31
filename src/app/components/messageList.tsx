@@ -37,7 +37,7 @@ const MessageList = ({
       if (imageFile) {
         formData.append("file", imageFile);
       }
-      const response = await fetch("http://127.0.0.1:8000/uploadfile/", {
+      const response = await fetch("https://ai-chat-app-o0cz.onrender.com/uploadfile/", {
         method: "POST",
         body: formData,
       });
