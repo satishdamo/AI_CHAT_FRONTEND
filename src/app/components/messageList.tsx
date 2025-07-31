@@ -51,10 +51,13 @@ const MessageList = ({
       if (imageFile) {
         formData.append("file", imageFile);
       }
-      const response = await fetch("http://127.0.0.1:8000/uploadfile/", {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch(
+        "https://ai-chat-app-o0cz.onrender.com/uploadfile/",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok");
