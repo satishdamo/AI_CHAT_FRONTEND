@@ -150,6 +150,7 @@ const MessageList = ({
           alt="Chatbot"
           width={100}
           height={100}
+          priority
         />
         <span className={styles.headerText}>Satbot</span>
       </h1>
