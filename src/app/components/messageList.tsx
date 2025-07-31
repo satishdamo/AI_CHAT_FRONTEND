@@ -94,7 +94,15 @@ const MessageList = ({
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>Chat with SatGPT</h1>
+      <h1 className={styles.header}>
+        <Image
+          src="/images/AI_Chatbot.png"
+          alt="Chatbot"
+          width={100}
+          height={100}
+        />
+        <span className={styles.headerText}>Satbot</span>
+      </h1>
       <div className={styles.chatBox}>
         {chatHistory.map((chat, index) => (
           <div

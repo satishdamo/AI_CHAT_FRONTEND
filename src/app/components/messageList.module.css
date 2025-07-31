@@ -13,6 +13,15 @@
   margin: 20px 0;
 }
 
+.headerText {
+  font-size: 24px;
+  display: block;
+  color: #007bff;
+  margin-left: 0; /* Remove left margin */
+  text-align: center; /* Center the text horizontally */
+  width: 100%;
+}
+
 .chatBox {
   display: flex;
   flex-direction: column;
